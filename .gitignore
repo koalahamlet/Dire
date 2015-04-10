@@ -25,6 +25,9 @@ coverage.ec
 classes
 gen-external-apklibs
 
+# Gradle
+.gradle/
+
 # Robolectric
 tmp
 
