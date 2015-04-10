@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="color_primary_daft">#F4E862</color>
+    <color name="color_primary_dark_daft">#D5AA41</color>
+    <color name="color_accent_daft">#91A4CE</color>
+
+    <color name="background_contextual_action_bar_daft">@color/color_primary_dark_daft</color>
+
+</resources>

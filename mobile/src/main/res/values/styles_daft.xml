@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="DaftTheme" parent="BaseDaftTheme">
+        <item name="colorPrimary">@color/color_primary_daft</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark_daft</item>
+        <item name="colorAccent">@color/color_accent_daft</item>
+        <item name="toolbarStyle">@style/DaftToolbar</item>
+
+        <!-- Contextual Action Bar -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/background_contextual_action_bar_daft</item>
+    </style>
+
+    <style name="BaseDaftTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="DaftToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+</resources>

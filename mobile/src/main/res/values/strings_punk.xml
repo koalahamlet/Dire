@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="label_activity_punk">Punk</string>
+    <string name="title_punk"><b>P-</b>P-Punk</string>
+    <string-array name="title_punk_color">
+        <item>Work it</item>
+        <item>Harder</item>
+        <item>Make it</item>
+        <item>Better</item>
+        <item>Do it</item>
+        <item>Faster</item>
+        <item>Makes us</item>
+        <item>Stronger</item>
+        <item>More than</item>
+        <item>Ever</item>
+        <item>Hour</item>
+        <item>After</item>
+        <item>Our</item>
+        <item>Work is</item>
+        <item>Never</item>
+        <item>Over</item>
+    </string-array>
+    <string name="title_settings">Set it</string>
+    <string name="title_harder">Work it</string>
+    <string name="title_faster">Make it</string>
+
+    <string name="action_launch_daft">Launch Daft</string>
+
+    <string name="row_picture_content_description">Technologic</string>
+
+    <string name="punk_button_0">HARDER, BETTER</string>
+    <string name="punk_button_1">FASTER, STRONGER</string>
+
+</resources>

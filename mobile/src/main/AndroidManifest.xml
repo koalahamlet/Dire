@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nightlynexus.playingatmyhouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app"
+        android:label="@string/label_app">
+
+        <activity
+            android:name=".daft.activity.DaftActivity"
+            android:icon="@mipmap/ic_launcher_daft"
+            android:label="@string/label_activity_daft"
+            android:theme="@style/DaftTheme"
+            android:taskAffinity="com.nightlynexus.playingatmyhouse.daft">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".punk.activity.PunkActivity"
+            android:icon="@mipmap/ic_launcher_punk"
+            android:label="@string/label_activity_punk"
+            android:theme="@style/PunkTheme"
+            android:taskAffinity="com.nightlynexus.playingatmyhouse.punk">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

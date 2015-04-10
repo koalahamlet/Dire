@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="label_activity_daft">Daft</string>
+    <string name="title_daft"><b>D-</b>D-Daft</string>
+
+    <string name="action_launch_punk">Launch Punk</string>
+
+    <string name="daft_button_back">Go BACK</string>
+    <string name="daft_button_forward">Go FORWARD</string>
+
+</resources>

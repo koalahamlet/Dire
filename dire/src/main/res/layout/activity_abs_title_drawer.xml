@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.nightlynexus.dire.widget.StatusBarDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:statusBarColor="?colorPrimaryDark"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/activity_abs_title_normal" />
+
+    <com.nightlynexus.dire.widget.ScrimInsetsFrameLayout
+        android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true" />
+
+</com.nightlynexus.dire.widget.StatusBarDrawerLayout>

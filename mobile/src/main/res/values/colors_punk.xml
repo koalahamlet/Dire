@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="color_primary_punk">#91A4CE</color>
+    <color name="color_primary_dark_punk">#687997</color>
+    <color name="color_accent_punk">#F4E862</color>
+
+    <color name="background_navigation_drawer_punk">#8E2A73</color>
+    <color name="status_bar_navigation_drawer_punk">#5000</color>
+
+    <color name="background_contextual_action_bar_punk">@color/color_primary_dark_punk</color>
+
+    <color name="foreground_row_picture_ripple">#501941</color>
+    <color name="foreground_row_picture_pressed">#BB501941</color>
+    <color name="foreground_row_picture_checked">#88501941</color>
+
+    <!--<color name="background_image_profile">#76ADE3</color>
+    <color name="background_image_ram">#0A0C0B</color>
+    <color name="background_image_dp">#FBFBFB</color>
+    <color name="background_image_digital">#000000</color>-->
+
+    <color name="background_settings">#000000</color>
+    <color name="background_settings_switch">#333333</color>
+
+</resources>
